@@ -1,0 +1,8 @@
+C:\xmljsonparser\XmlDbService\bin\Debug\netstandard2.0\XmlDbService.deps.json
+C:\xmljsonparser\XmlDbService\bin\Debug\netstandard2.0\XmlDbService.dll
+C:\xmljsonparser\XmlDbService\bin\Debug\netstandard2.0\XmlDbService.pdb
+C:\xmljsonparser\XmlDbService\obj\Debug\netstandard2.0\XmlDbService.csproj.CoreCompileInputs.cache
+C:\xmljsonparser\XmlDbService\obj\Debug\netstandard2.0\XmlDbService.AssemblyInfoInputs.cache
+C:\xmljsonparser\XmlDbService\obj\Debug\netstandard2.0\XmlDbService.AssemblyInfo.cs
+C:\xmljsonparser\XmlDbService\obj\Debug\netstandard2.0\XmlDbService.dll
+C:\xmljsonparser\XmlDbService\obj\Debug\netstandard2.0\XmlDbService.pdb

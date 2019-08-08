@@ -1,0 +1,8 @@
+C:\xmljsonparser\XmlClientReader\bin\Debug\netstandard2.0\XmlClientReader.deps.json
+C:\xmljsonparser\XmlClientReader\bin\Debug\netstandard2.0\XmlClientReader.dll
+C:\xmljsonparser\XmlClientReader\bin\Debug\netstandard2.0\XmlClientReader.pdb
+C:\xmljsonparser\XmlClientReader\obj\Debug\netstandard2.0\XmlClientReader.csproj.CoreCompileInputs.cache
+C:\xmljsonparser\XmlClientReader\obj\Debug\netstandard2.0\XmlClientReader.AssemblyInfoInputs.cache
+C:\xmljsonparser\XmlClientReader\obj\Debug\netstandard2.0\XmlClientReader.AssemblyInfo.cs
+C:\xmljsonparser\XmlClientReader\obj\Debug\netstandard2.0\XmlClientReader.dll
+C:\xmljsonparser\XmlClientReader\obj\Debug\netstandard2.0\XmlClientReader.pdb
