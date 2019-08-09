@@ -24,7 +24,7 @@ public class MySqlConnector : IDBConnector
 
     private String SetConnectionString()
     {
-        String connectionstr = String.Format("Persist Security Info=False;database={0};server={1};Connect Timeout=30;user id={2}; pwd={3}",
+        String connectionstr = String.Format("Persist Security Info=False;database={0};server={1};port=3306;Connect Timeout=30;user id={2}; pwd={3}",
             this.db,
             this.server,
             this.ui,

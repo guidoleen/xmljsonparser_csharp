@@ -3,12 +3,16 @@ C:\xmljsonparser\XmlJsonParser\bin\Debug\netcoreapp2.1\XmlJsonParser.runtimeconf
 C:\xmljsonparser\XmlJsonParser\bin\Debug\netcoreapp2.1\XmlJsonParser.runtimeconfig.dev.json
 C:\xmljsonparser\XmlJsonParser\bin\Debug\netcoreapp2.1\XmlJsonParser.dll
 C:\xmljsonparser\XmlJsonParser\bin\Debug\netcoreapp2.1\XmlJsonParser.pdb
-C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.csprojAssemblyReference.cache
+C:\xmljsonparser\XmlJsonParser\bin\Debug\netcoreapp2.1\XmlClientReader.dll
+C:\xmljsonparser\XmlJsonParser\bin\Debug\netcoreapp2.1\XmlDbService.dll
+C:\xmljsonparser\XmlJsonParser\bin\Debug\netcoreapp2.1\XmlClientReader.pdb
+C:\xmljsonparser\XmlJsonParser\bin\Debug\netcoreapp2.1\XmlDbService.pdb
 C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.csproj.CoreCompileInputs.cache
 C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.RazorAssemblyInfo.cache
 C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.RazorAssemblyInfo.cs
 C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.AssemblyInfoInputs.cache
 C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.AssemblyInfo.cs
 C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.RazorTargetAssemblyInfo.cache
+C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.csproj.CopyComplete
 C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.dll
 C:\xmljsonparser\XmlJsonParser\obj\Debug\netcoreapp2.1\XmlJsonParser.pdb

@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+//using System.Linq;
+//using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using XmlClientReader;
 
 namespace XmlJsonParser.Controllers
 {
@@ -10,11 +11,45 @@ namespace XmlJsonParser.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        // Init the objects for db management
+        private XmlDbService.XmlDbService dbService;
+        private XmlDbService.MysqlConnectionString msconnectionString = new XmlDbService.MysqlConnectionString(
+                "localhost",
+                "info",
+                "info",
+                "xmlservice"
+            );
+                    
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            String actionResult = "{}";
+            String url = "https://nl.cwcloudpartner.com/nl-develop/e/register";
+            XmlDocFromUrl xmlDocFromUrl = new XmlDocFromUrl(url);
+
+            try
+            {
+                // Get Xml from url and convert to Json string
+                List<KeyValuePair<String, String>> list = xmlDocFromUrl.GetXmlDocList();
+                String xmlToJson = new XmlToJson().XmlToJsonString(list);
+                actionResult = xmlToJson;
+
+                // Save to Log database...
+                // System.AppDomain.CurrentDomain.BaseDirectory
+                dbService = new XmlDbService.XmlDbService("This service is ready", "L", this.msconnectionString);
+            }
+            catch (MySql.Data.MySqlClient.MySqlException ee)
+            {
+                actionResult = ee.ToString();
+            }
+            catch (Exception ee)
+            {
+                // Save to Log database...
+                new XmlDbService.XmlDbService(ee.ToString(), "E", this.msconnectionString);
+            }
+
+            return actionResult;
         }
 
         // GET api/values/5

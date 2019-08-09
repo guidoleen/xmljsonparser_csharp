@@ -1,0 +1,2 @@
+CREATE USER 'info'@'localhost' IDENTIFIED BY 'info';
+GRANT SELECT, INSERT ON xmlservice.* TO 'info'@'localhost';

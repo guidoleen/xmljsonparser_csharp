@@ -3,15 +3,15 @@
 namespace XmlDbService
 {
 
-    // TODO > uitbreiden met de parameters voor de connector
     public class XmlDbService
     {
-        public XmlDbService(String strText, String strType)
+        public XmlDbService(String strText, String strType, MysqlConnectionString msString)
         {
-            IDBConnector dbc = new MySqlConnector("localhost",
-                "root",
-                "VisualStudio123.",
-                "xmlservice"
+            IDBConnector dbc = new MySqlConnector(
+                msString.getServer(),
+                msString.getUi(),
+                msString.getPwd(),
+                msString.getDb()
                 );
 
             LoginInfoMySqlDAO loginDAO = new LoginInfoMySqlDAO(dbc);
